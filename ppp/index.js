@@ -1,5 +1,6 @@
+const info= require("./information");
 const cowsay = require("cowsay");
 
 console.log(cowsay.say({
-    text : "I'm Edouard from Reims",
+        text: `Hi, my name is ${info.name} and I'm form ${info.campus}`
 }))
